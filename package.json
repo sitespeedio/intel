@@ -1,5 +1,5 @@
 {
-  "name": "intel",
+  "name": "@sitespeed.io/intel",
   "version": "1.2.0",
   "license": "MPL-2.0",
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "bluebird": "^3.5",
-    "debug": "~2.2.0",
+    "debug": "2.2.0",
     "insist": "^1.0",
     "jshint": "2.x",
     "matcha": "0.x",

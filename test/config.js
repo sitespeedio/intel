@@ -13,7 +13,7 @@ const intel = require('../');
 const NOW = Date.now();
 var counter = 1;
 function tmp() {
-  return path.join(os.tmpDir(),
+  return path.join(os.tmpdir(),
       'intel-' + NOW + '-' + process.pid + '-' + (counter++));
 }
 
