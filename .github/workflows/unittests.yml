@@ -12,6 +12,8 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
+    env:
+      DEBUG_HIDE_DATE: true 
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
@@ -19,6 +21,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
-      run: npm install
+      run: npm installs
     - name: Run unit tests
       run: npm test
